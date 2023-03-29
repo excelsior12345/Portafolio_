@@ -242,6 +242,14 @@
   .cont-inf-habilidades p {
     width: 80%;
   }
+.cont-img-skill{
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 }
 
 @media (max-width: 600px) {
