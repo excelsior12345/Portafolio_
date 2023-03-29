@@ -378,6 +378,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .section-experiencia-1 > img {
