@@ -12,7 +12,7 @@
     <title>Portafolio</title>
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav" aria-label="Menú de navegación principal">
       <!-- logo -->
       <img src="./img/logo.png" alt="Logo personal" />
       <label for="check-nav"  aria-label="espacio"><i class="fa-solid fa-bars"></i></label>
@@ -39,7 +39,7 @@
     <section class="home">
       <div class="cont-name">
         <h1>Josue Cano Delgado</h1>
-        <h3>FRONT-END-DEVELOPER</h3>
+        <p>FRONT-END-DEVELOPER</p>
       </div>
       <!-- iconos con enlaces -->
       <div class="redes">
@@ -122,12 +122,13 @@
     <section class="habilidades" id="habilidades">
       <h2>Habilidades de programacion</h2>
       <div class="cont-img-skill">
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="3000" src="./img/css.png" alt="css" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2500" src="./img/html.png" alt="html" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2000" src="./img/js.png" alt="js" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1500" src="./img/php.png" alt="php" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1000" src="./img/sql.png" alt="sql" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="800" src="./img/c.png" alt="c" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="3000" src="./img/css.png" alt="CSS" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2500" src="./img/html.png" alt="HTML" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2000" src="./img/js.png" alt="JavaScript" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1500" src="./img/php.png" alt="PHP" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1000" src="./img/sql.png" alt="SQL" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="800" src="./img/c.png" alt="C" />
+
       </div>
     </section>
 
@@ -225,19 +226,20 @@
         <div class="cont-main-icons">
           <p class="encuentrame">Encuentrame en:</p>
           <div class="iconos">
-            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
-            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></i></a>
+            <a href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/" aria-label="instagram"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://twitter.com/?lang=es" aria-label="twitter"><i class="fa-brands fa-twitter"></i></i></a>
           </div>
         </div>
        
       </div>
 
       <form>
-        <input type="text" placeholder="Nombre" />
-        <input type="text" placeholder="Correo Electronico" />
-        <textarea name="escribe aqui" id="" cols="" rows="4"></textarea>
+        <input type="text" name="nombre" placeholder="Nombre" aria-label="Nombre" />
+        <input type="text" name="correo" placeholder="Correo Electrónico" aria-label="Correo Electrónico" />
+        <textarea name="mensaje" cols="" rows="4" aria-label="Mensaje"></textarea>
+
         <div class="btn-form">
           <button type="submit">Enviar</button>
         </div>
