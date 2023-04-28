@@ -368,11 +368,11 @@
 
 .linea p {
   font-size: 30px;
-  color: #adadad;
+  color: #343434;
 }
 
 .linea div {
-  border: 1px solid #bcbcbc;
+  border: 1px solid #343434;
   width: 1px;
   height: 220px;
 }
