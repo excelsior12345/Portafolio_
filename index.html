@@ -14,7 +14,7 @@
   <body>
     <nav class="nav" aria-label="Menú de navegación principal">
       <!-- logo -->
-      <img src="./img/logo.png" alt="Logo personal" />
+      <img src="./img/logo.png" alt="Logo personal con las iniciales de nombre y apellido" />
       <label for="check-nav"  aria-label="espacio"><i class="fa-solid fa-bars"></i></label>
       <input type="checkbox" id="check-nav" />
 
@@ -63,7 +63,7 @@
         </p>
       </div>
       <div>
-        <img class="img-sobremi" src="./img/personal.jpg" alt="imagen sobremi" />
+        <img class="img-sobremi" src="./img/personal.jpg" alt="imagen personal de la cara" />
       </div>
     </section>
 
@@ -122,12 +122,12 @@
     <section class="habilidades" id="habilidades">
       <h2>Habilidades de programacion</h2>
       <div class="cont-img-skill">
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="3000" src="./img/css.png" alt="CSS" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2500" src="./img/html.png" alt="HTML" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2000" src="./img/js.png" alt="JavaScript" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1500" src="./img/php.png" alt="PHP" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1000" src="./img/sql.png" alt="SQL" />
-        <img class="lenguajes" data-aos="fade-right" data-aos-duration="800" src="./img/c.png" alt="C" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="3000" src="./img/css.png" alt="logo letras CSS" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2500" src="./img/html.png" alt="logo letras HTML" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="2000" src="./img/js.png" alt="logo letras JavaScript" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1500" src="./img/php.png" alt="logo letras PHP" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="1000" src="./img/sql.png" alt="logo letras SQL" />
+        <img class="lenguajes" data-aos="fade-right" data-aos-duration="800" src="./img/c.png" alt="logo letras C" />
 
       </div>
     </section>
@@ -162,7 +162,7 @@
       </div>
 
       <div class="section-experiencia-1">
-        <img src="./img/educa3.jpeg" data-aos="fade-down-right" data-aos-duration="2500" alt="Imagen de formacion" />
+        <img src="./img/educa3.jpeg" data-aos="fade-down-right" data-aos-duration="2500" alt="Imagen de una mesa de estudio con un portatil" />
         <div class="linea">
           <p>1</p>
           <div></div>
@@ -176,7 +176,7 @@
       </div>
 
       <div class="section-experiencia-2">
-        <img src="./img/educa2.jpg" data-aos="fade-up-left" data-aos-duration="2500" alt="imgen de esperiencia" />
+        <img src="./img/educa2.jpg" data-aos="fade-up-left" data-aos-duration="2500" alt="imgen de un portatil en una mesa de trabajo" />
         <div class="linea">
           <p>2</p>
           <div></div>
@@ -198,7 +198,7 @@
           <img class="zoom" src="./img/proyecto2.png" alt="imagen poyecto2" />
         </div>
         <div class="page-portafolio">
-          <img class="zoom"  src="./img/Gryffindor-Logo-PNG-Image.png" alt="imagen proyecto grifindor" href="https://excelsior12345.github.io/Tren/" alt="tren"/>
+          <img class="zoom"  src="./img/Gryffindor-Logo-PNG-Image.png" alt="imagen proyecto gryffindor" href="https://excelsior12345.github.io/Tren/" alt="tren"/>
         </div>
         <div class="page-portafolio">
           <img class="zoom" src="./img/cup.png" alt="imagen proyecto cup" />
@@ -236,9 +236,14 @@
       </div>
 
       <form>
-        <input type="text" name="nombre" placeholder="Nombre" aria-label="Nombre" />
-        <input type="text" name="correo" placeholder="Correo Electrónico" aria-label="Correo Electrónico" />
-        <textarea name="mensaje" cols="" rows="4" aria-label="Mensaje"></textarea>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" />
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="text" id="correo" placeholder="Correo Electronico" />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="" rows="4"></textarea>
 
         <div class="btn-form">
           <button type="submit">Enviar</button>

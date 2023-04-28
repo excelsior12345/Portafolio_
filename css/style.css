@@ -595,3 +595,7 @@ footer p {
 .zoom:hover {
   transform: scale(1.1);
 }
+*:focus {
+  outline: 2px solid #e4a951;
+  outline-offset: 4px;
+}
