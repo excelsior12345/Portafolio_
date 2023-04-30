@@ -599,3 +599,10 @@ footer p {
   outline: 2px solid #e4a951;
   outline-offset: 4px;
 }
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
